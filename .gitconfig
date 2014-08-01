@@ -1,0 +1,8 @@
+[user]
+  name = Michal Ciebiada
+  email = michal.ciebiada@u2i.com
+[alias]
+  lg = "log --graph --format='%C(bold yellow)%h%C(reset) %s - %C(dim normal)%an%C(reset)%C(bold red)%d'"
+  st = status
+  co = checkout
+  ci = commit
