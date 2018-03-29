@@ -20,6 +20,8 @@ Plug 'nanotech/jellybeans.vim'
 Plug 'morhetz/gruvbox'
 Plug 'chriskempson/base16-vim'
 Plug 'sjl/badwolf'
+Plug 'mattn/webapi-vim'
+Plug 'mattn/gist-vim'
 call plug#end()
 
 set background=dark
