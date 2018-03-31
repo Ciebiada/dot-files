@@ -1,4 +1,5 @@
 call plug#begin('~/.vim/plugged')
+Plug 'tpope/vim-vinegar'
 Plug 'tpope/vim-rails'
 Plug 'tpope/vim-endwise'
 Plug 'pangloss/vim-javascript'
@@ -56,5 +57,6 @@ imap jk <Esc>
 nmap <leader>s :w<CR>
 nmap <leader>o :FZF<CR>
 nmap <leader>ev :vsplit $MYVIMRC<CR>
+nmap <leader>ec :vsplit ~/.ctags.d/init.ctags<CR>
 nmap <leader>t :TestNearest<CR>
 nmap <leader>T :TestFile<CR>
